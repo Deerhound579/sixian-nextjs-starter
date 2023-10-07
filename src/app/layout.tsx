@@ -10,10 +10,10 @@ export const metadata: Metadata = {
     default: config.siteName,
     template: `%s | ${config.siteName}`,
   },
-  description: "Sixian's personalized Next.js + Tailwind + TypeScript starter",
+  description: config.description,
   openGraph: {
     title: config.siteName,
-    description: 'Free spirit',
+    description: config.description,
     url: 'https://sixian.li',
     siteName: 'Sixian Li',
     images: [
