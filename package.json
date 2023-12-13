@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "setup": "pnpm dlx simple-git-hooks",
+    "setup-git-hook": "pnpm dlx simple-git-hooks",
     "preinstall": "npx only-allow pnpm",
     "dev": "next dev",
     "build": "next build",
